@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Projeyi patlıcanıma sürdüm gel de al</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
+    </head>
+    <body>
+        <h1>End user gui</h1>
+        <p>Here probably will go the form and stufff.... </p>
+        <div id="main">
+            <form action="home" method="post">
+                <p>What is the name of the program?</p>
+                
+                <input type="text" name="name_input">
+                
+                <p>What is the rating of the program?</p>
+                
+                <input type="text" name="rating_input">
+                
+                <p>What is the cost of the program?</p>
+                
+                <input type="text" name="cost_input">
+                
+                <p>Why would you like to use the program for?</p>
+                
+                <input type="text" name="reason_input">
+                <br>
+                <br>
+                <input type="submit" value="Consult" id="consult">
+            </form>
+
+            <div id="annen">
+                <p>Here comes the treble</p>
+                <br>
+                <p>Annen baban deden</p>
+                <p> {{reply}} </p>
+            </div>
+        </div>
+        
+    </body>
+</html>

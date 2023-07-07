@@ -1,0 +1,32 @@
+body {
+    background-color: blanchedalmond;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content:space-evenly;
+}
+
+div {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex: content;
+    flex-direction: row;
+    text-align: center;
+    place-content:space-between;
+    background-color: aqua;
+}
+
+#main {
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    width:50%;
+}
+
+#annen {
+    display: flex;
+    flex: content;
+    flex-direction: column;
+    place-content: space-evenly;
+}
